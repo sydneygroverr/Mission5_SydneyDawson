@@ -1,0 +1,38 @@
+﻿<div class="priceTitle">
+    <h1>Pricing Calculator</h1>
+
+    <p>Use the calculator to receive a quote today!</p>
+</div>
+
+
+@* 
+box to enter number of hours
+validate to make sure only positive
+non-editable box showing price per hour
+calc button
+output box showing total *@
+@* 
+<div id="input-container">
+    <label for="numberInput">Hours:</label>
+    <input type="number" id="numberInput">
+</div>
+<div id="output"></div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+
+<div class="containerPricing">
+    <label for="numberInput">Hours of Instruction:</label>
+    <input type="number" id="numberInput">
+    <p>x $50 per hour</p>
+    <button id="calculateBtn">Calculate</button>
+    <br/>
+    <div id="resultBox" class="box">Result</div>
+    <br />
+    <br />
+</div>
+
+<!-- Include jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Include multiplier script -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
